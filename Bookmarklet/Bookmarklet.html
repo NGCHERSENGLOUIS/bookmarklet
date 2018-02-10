@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Bookmarklet</title>
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+</head>
+
+<body>
+	<a href="javascript: (function() {let script = document.createElement('script'); script.src='https://drive.google.com/file/d/1mQhBc07cWL2XC88mWS8rBPjd1LcLBHoT/view?usp=sharing'; document.body.appendChild(script);})();">Bookmarklet - Drag me to Bookmark Bar</a>
+</body>
+</html>
+
+
+<!--
+#files to import
+- Jquery
+- Rand function
+
+#Declaration of values
+
+
+#Declaration of storage system. Storage for Values -> Array? Dictionary?
+Storage = []?
+
+#Creation of randomized values ->probability of hitting same number should be small
+	Value1 = Value1_randomvalue1
+	Value2 = Value2_randomvalue2
+	...
+	...
+	...
+
+
+Search for fields by name="?" #Find using JQuery
+	if name exists:
+		#fill in field
+		append value into field as html
+
+		#Store value in storage
+		Storage[0] = ...
+
+
+
+Output stored values into googlesheets
+- Google sheets API?
+- Date should be listed when values are appended
+-->
